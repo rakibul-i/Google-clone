@@ -10,6 +10,7 @@ import ImageIcon from '@material-ui/icons/Image';
 import LocalOfferIcon from '@material-ui/icons/LocalOffer';
 import RoomIcon from '@material-ui/icons/Room';
 import MoreVertIcon from '@material-ui/icons/MoreVert';
+import logo from '../../logo..png'
 
 const SearchPage = () => {
     const [{term}, dispatch] = useStateValue();
@@ -22,7 +23,7 @@ const SearchPage = () => {
             <div className="searchPage__header">
                 <Link to="/">
                     <img className="searchPage__logo"
-                     src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c51f.png" alt="" />
+                     src={logo} alt="" />
                 </Link>
 
                 <div className="searchPage__headerBody">

@@ -4,7 +4,7 @@ import './home.css';
 import AppsIcon from '@material-ui/icons/Apps';
 import {Avatar} from '@material-ui/core';
 import Search from '../Search/Search';
-
+import logo from '../../logo..png'
 const Home = () => {
     return (
         <div className="home">
@@ -25,7 +25,7 @@ const Home = () => {
             </div>
             <div className="home__body">
 
-            <img src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c51f.png" alt="" />
+            <img src={logo} alt="" />
             <div className="home__inputContainer">
                 <Search hideButtons />
             </div>
